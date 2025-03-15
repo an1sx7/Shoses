@@ -1,0 +1,158 @@
+body{
+  color:black;
+  padding:0;
+}
+.logo img{
+  width:200px;
+  margin-left:70px;
+  animation:lg 1s backwards;
+}
+.s1{
+  width:90%;
+  height:550px;
+  box-shadow:0 0 30px;
+  padding:0 10px;
+  margin-left:6px;
+  border-radius:20px;
+  animation:s1 2s backwards 1s;
+}
+.s1 img{
+  width:180px;
+  margin-left:65px;
+  margin-top:70px;
+  transition:1s;
+  margin-bottom:70px
+}
+.s1 p a{
+  margin-left:120px;
+  color:black;
+  text-decoration:none;
+}
+.s1 button{
+  width:40px;
+  height:40px;
+  border:none;
+  transition:1s;
+}
+.s1 input{
+  width:90%;
+  height:50px;
+  border:none;
+  background:lawngreen;
+  margin-left:14px;
+  font-size:20px;
+}
+button:hover{
+  background:mediumspringgreen;
+  scale:1.1
+}
+.s1 img:hover{
+  scale:1.4
+}
+.s2{
+  width:90%;
+  height:550px;
+  box-shadow:0 0 30px;
+  padding:0 10px;
+  margin-left:6px;
+  border-radius:20px;
+  animation:s2 2s backwards 2s;
+}
+.s2 img{
+  width:200px;
+  margin-left:55px;
+  margin-top:60px;
+  transition:1s;
+}
+.s2 p a{
+  margin-left:85px;
+  color:black;
+  text-decoration:none;
+}
+.s2 button{
+  width:40px;
+  height:40px;
+  border:none;
+  transition:1s;
+}
+.s2 input{
+    width:90%;
+  height:50px;
+  border:none;
+  background:lawngreen;
+  margin-left:14px;
+  font-size:20px;
+}
+.s2 img:hover{
+  scale:1.4
+}
+.s3{
+  width:90%;
+  height:550px;
+  box-shadow:0 0 30px;
+  padding:0 10px;
+  margin-left:6px;
+  border-radius:20px;
+  animation:s3 2s backwards 3s;
+}
+.s3 img{
+  width:180px;
+  margin-left:60px;
+  margin-top:90px;
+  transition:1s;
+  margin-bottom:50px
+}
+.s3 p a{
+  margin-left:95px;
+  color:black;
+  text-decoration:none;
+}
+.s3 button{
+  width:40px;
+  height:40px;
+  border:none;
+  transition:1s;
+}
+.s3 input{
+  width:90%;
+  height:50px;
+  border:none;
+  background:lawngreen;
+  margin-left:14px;
+  font-size:20px;
+}
+.s3 img:hover{
+  scale:1.4
+}
+@keyframes lg{
+  from{
+    translate:-400px
+  }
+  to{
+    translate:0
+  }
+}
+@keyframes s1{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@keyframes s2{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@keyframes s3{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+}
